@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Capital hotel and spa</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+        <link rel = "icon" href = "images/get.jpg" type = "image/png">
+    </head>
+    <body>
+        
+     
+        <header class = "header" id = "header">
+            <div class = "head-top">
+                <div class=site-name>
+                    <img src=images/get.jpg class=logo>
+                </div>
+                <div class = "site-nav">
+                    <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+                </div>
+            </div>
+
+            <div class = "head-bottom flex">
+                <h2>Capital hotel and spa</h2>
+                <p>Ethiopian 5 star hotel</p>
+                <button type = "button" class = "head-btn">Book now</button>
+            </div>
+        </header>
+        
+        <div class = "sidenav" id = "sidenav">
+            <span class = "cancel-btn" id = "cancel-btn">
+                <i class = "fas fa-times"></i>
+            </span>
+
+            <ul class = "navbar">
+                <li><a href = "#header">home</a></li>
+                <li><a href = "#services">services</a></li>
+                <li><a href = "#rooms">rooms</a></li>
+                <li><a href = "#customers">customers</a></li>
+            </ul>
+            <button class = "btn sign-up">Book now</button>
+			<a href=booknow.html>.</a>
+        </div>
+       
+        <div id = "modal"></div>
+      
+        <section class = "services sec-width" id = "services">
+            <div class = "title">
+                <h2>services</h2>
+            </div>
+            <div class = "services-container">
+             
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-utensils"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Food Service/ Restaurant</h2>
+                        <p>Our restaurant serves healthy variety of international and national food. At Capital Dining, we welcome guests in the mornings with a rich breakfast buffet for the perfect start to a relaxing and productive day. There are also lunch and dinner buffets, as well as the a La Carte menu to keep you going long into the evening. </p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+ 
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class = "fas fa-swimming-pool"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>swimming pool</h2>
+                        <p>Very relaxing warm outdoor pool, 170m2, 24hrs circulating, Pressure massage, professional life guards available at all times.
+
+                            The outdoor pool facility includes a four-lane 17-meter pool, with a temperature maintained all year round at a comfortable 30-34⁰C. Our luxurious pool provides the perfect spot to relax, read and enjoy the beautiful sunny weather of Addis Ababa.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+                
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                          <i class="fa-solid fa-dumbbell"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Gym services</h2>
+                        <p>Specially created for upper class, our fitness program and spa services are designed to designed to allow everyone in the family (young, old and all ages in between) to ﬁnd enjoyable activities so as to empower your body, inspire your mind, and nurture your soul.
+                            Our activities fit to people of all ages- young, old and ages in between.</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+
+                <article class = "service">
+                    <div class = "service-icon">
+                        <span>
+                            <i class="fa-solid fa-spa"></i>
+                        </span>
+                    </div>
+                    <div class = "service-content">
+                        <h2>Spa services</h2>
+                        <p>Five Star Hotel class rich & superior SPA services Covering all services for your body, mind, & beauty in Separate spa floor for ladies & gentlemen, Special spa service packages, VIP SPA packages, Wedding Packages | Private spa time with your significant other & make-up studio
+
+                            MISC. SERVICES Massages & Moroccan bath Services | Mani / Pedi | Barber | Beauty Salon | Nail Polish | Wedding Packages | Spa Basics | Steam | Sauna | Hot Tab</p>
+                        <button type = "button" class = "btn">Know More</button>
+                    </div>
+                </article>
+               
+            </div>
+        </section>
+
+        <div class = "book">
+            <form class = "book-form">
+                <div class = "form-item">
+                    <label for = "checkin-date">Depature Date: </label>
+                    <input type = "date" id = "chekin-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "checkout-date">Arrival Date: </label>
+                    <input type = "date" id = "chekout-date">
+                </div>
+                <div class = "form-item">
+                    <label for = "adult">Adults: </label>
+                    <input type = "number" min = "1" value = "1" id = "adult">
+                </div>
+                <div class = "form-item">
+                    <label for = "children">Children: </label>
+                    <input type = "number" min = "1" value = "1" id = "children">
+                </div>
+                <div class = "form-item">
+                    <label for = "rooms">Rooms: </label>
+                    <input type = "number" min = "1" value = "1" id = "rooms">
+                </div>
+                <div class = "form-item">
+                    <input type = "submit" class = "btn" value = "Book Now">
+                </div>
+            </form>
+        </div>
+
+        <section class = "rooms sec-width" id = "rooms">
+            <div class = "title">
+                <h2>rooms</h2>
+            </div>
+            <div class = "rooms-container">
+               
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/room1.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>Twin standard</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                2 adults
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Bed:2 single beds
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Room size: 32m <sub>2</sub>
+                            </li>
+                        </ul>
+                        <p> This air-conditioned twin room features a balcony, satellite TV and minibar</p>
+						<p class = "rate">
+                            <span> $80.47/</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+         
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/room3.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>King superior</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                2 adults
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Bed: 1 extra-large double bed
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                               Room size: 32m<sup>2</sup>
+                            </li>
+                        </ul>
+                        <p>This air-conditioned double room features a balcony, satellite TV and minibar</p>
+						<p class = "rate">
+                            <span>$100.0 /</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+            
+                <article class = "room">
+                    <div class = "room-image">
+                        <img src = "images/room2.jpg" alt = "room image">
+                    </div>
+                    <div class = "room-text">
+                        <h3>King standard</h3>
+                        <ul>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                2 adults
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                                Bed: 1 large double bed
+                            </li>
+                            <li>
+                                <i class = "fas fa-arrow-alt-circle-right"></i>
+                               Room size: 32m<sup>2</sup>
+                            </li>
+                        </ul>
+                        <p>This air-conditioned double room features a balcony, satellite TV and minibar</p>
+                        <p class = "rate">
+                            <span> $90.0/</span> Per Night
+                        </p>
+                        <button type = "button" class = "btn">book now</button>
+                    </div>
+                </article>
+             
+            </div>
+        </section>
+
+
+        <section class = "customers" id = "customers">
+            <div class = "sec-width">
+                <div class = "title">
+                    <h2>customers</h2>
+                </div>
+                <div class = "customers-container">
+                   
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>We Loved it</h3>
+                        <p>Capital hotel was an oasis for us during our trip in Ethiopia. The staff were exceptional accommodation and we were sad to have to leave! Excellent room and spa service.</p>
+                         <img src = "images/cus1.jpg" alt = "customer image">
+                        <span>Jonna, united states</span>
+                    </div>
+                   
+                  
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Comfortable Living</h3>
+                        <p>The outdoor pool is heated making it a very pleasant and relaxing experience. The spa is also very good. The shuttle service from the hotel was very efficient</p>
+                       <img src = "images/cus2.jpg" alt = "customer image">
+                        <span>Michelle, Australia</span>
+                    </div>
+
+                    <div class = "customer">
+                        <div class = "rating">
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "fas fa-star"></i></span>
+                            <span><i class = "far fa-star"></i></span>
+                        </div>
+                        <h3>Nice Place</h3>
+                         <p>The staff at the capital Hotel were woderful. The hotel is beautiful and the rooms comfy and very clean. The heated pool was very clean and its staffed by life guards. The barber and beautiy salon was very appreciated.</p>
+                         <img src = "images/cus3.jpg" alt = "customer image">
+                        <span> Kristine, United states</span>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+       
+        <footer class = "footer">
+            <div class = "footer-container">
+                <div>
+                    <h2>About Us </h2>
+                    <p>The Capital Hotel & Spa , a conference resort, is a 5 star hotel in the fast growing hotel market of Addis Ababa and has redefined Ethiopian hospitality for more information visit our social medias</p>
+                    <ul class = "social-icons">
+                        <li class = "flex">
+                            <i class = "fa fa-twitter fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-facebook fa-2x"></i>
+                        </li>
+                        <li class = "flex">
+                            <i class = "fa fa-instagram fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Have A Question</h2>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>
+                            22 Mazzoria Haile G/Silassie ave,addis ababa,ethiopia
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span>
+                            +251 116 192 000
+                        </span>
+                    </div>
+                    <div class = "contact-item">
+                        <span>
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span>
+                            capitalhotelandspa@gmail.com
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+      
+        
+        <script src="script.js"></script>
+    </body>
+</html>
